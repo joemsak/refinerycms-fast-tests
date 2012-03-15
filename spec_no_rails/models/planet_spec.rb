@@ -1,5 +1,7 @@
 module Refinery
   module Core
+    class BaseModel < ActiveRecord::Base
+    end
   end
 end
 
