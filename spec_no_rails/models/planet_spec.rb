@@ -1,16 +1,4 @@
-require 'active_record'
-
-db = YAML.load(File.open('config/database.yml'))
-ActiveRecord::Base.establish_connection(db['test'])
-
-module Refinery
-  module Core
-    class BaseModel < ActiveRecord::Base
-      self.abstract_class = true
-    end
-  end
-end
-
+require_relative '../engines_helper'
 require 'planets/app/models/refinery/planets/planet'
 
 module Refinery
