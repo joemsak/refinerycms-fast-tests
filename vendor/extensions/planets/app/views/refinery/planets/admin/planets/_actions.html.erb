@@ -1,0 +1,25 @@
+<ul>
+  <% if ::Refinery::Planets::Admin::PlanetsController.searchable? %>
+    <li>
+      <%= render '/refinery/admin/search', :url => refinery.planets_admin_planets_path %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), refinery.new_planets_admin_planet_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? && ::Refinery::Planets::Admin::PlanetsController.sortable? && ::Refinery::Planets::Planet.any? %>
+  <li>
+    <%= link_to t('.reorder', :what => "Planets"),
+                 refinery.planets_admin_planets_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Planets"),
+                 refinery.planets_admin_planets_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>

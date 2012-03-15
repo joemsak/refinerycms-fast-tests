@@ -1,0 +1,27 @@
+nb:
+  refinery:
+    plugins:
+      planets:
+        title: Planets
+    planets:
+      admin:
+        planets:
+          actions:
+            create_new: Lag en ny Planet
+            reorder: Endre rekkefølgen på Planets
+            reorder_done: Ferdig å endre rekkefølgen Planets
+          records:
+            title: Planets
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Planets enda. Klikk på "Lag en ny Planet" for å legge til din første planet.
+          planet:
+            view_live_html: Vis hvordan denne planet ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne planet
+            delete: Fjern denne planet permanent
+      planets:
+        show:
+          other: Andre Planets
+  activerecord:
+    attributes:
+      'refinery/planets/planet':
+        name: Name

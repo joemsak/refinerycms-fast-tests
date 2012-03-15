@@ -1,0 +1,27 @@
+en:
+  refinery:
+    plugins:
+      planets:
+        title: Planets
+    planets:
+      admin:
+        planets:
+          actions:
+            create_new: Add New Planet
+            reorder: Reorder Planets
+            reorder_done: Done Reordering Planets
+          records:
+            title: Planets
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Planets yet. Click "Add New Planet" to add your first planet.
+          planet:
+            view_live_html: View this planet live <br/><em>(opens in a new window)</em>
+            edit: Edit this planet
+            delete: Remove this planet forever
+      planets:
+        show:
+          other: Other Planets
+  activerecord:
+    attributes:
+      'refinery/planets/planet':
+        name: Name

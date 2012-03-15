@@ -1,0 +1,28 @@
+es:
+  refinery:
+    plugins:
+      planets:
+        title: Planets
+#        article: masculino/femenino
+    planets:
+      admin:
+        planets:
+          actions:
+            create_new: Crear nuevo planet
+            reorder: Reordenar planets
+            reorder_done: Reordenación de planets completada
+          records:
+            title: Planets
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay planets todavía. Pulsa en "Crear nuevo Planet" para crear tu primer planet.
+          planet:
+            view_live_html: Ver este planet como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este planet
+            delete: Borrar este planet para siempre
+      planets:
+        show:
+          other: Otros planets
+  activerecord:
+    attributes:
+      'refinery/planets/planet':
+        name: Name

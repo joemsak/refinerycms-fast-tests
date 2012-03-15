@@ -1,0 +1,27 @@
+fr:
+  refinery:
+    plugins:
+      planets:
+        title: Planets
+    planets:
+      admin:
+        planets:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Planet
+            reorder: Réordonner les Planets
+            reorder_done: Fin de réordonnancement des Planets
+          records:
+            title: Planets
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Planet. Cliquer sur "Créer un(e) nouve(au/l/lle) Planet" pour créer votre premi(er/ère) planet.'
+          planet:
+            view_live_html: Voir ce(t/tte) planet <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) planet
+            delete: Supprimer définitivement ce(t/tte) planet
+      planets:
+        show:
+          other: Autres Planets
+  activerecord:
+    attributes:
+      'refinery/planets/planet':
+        name: Name
