@@ -1,3 +1,8 @@
+module Refinery
+  module Core
+  end
+end
+
 require 'planets/app/models/refinery/planets/planet'
 
 module Refinery
