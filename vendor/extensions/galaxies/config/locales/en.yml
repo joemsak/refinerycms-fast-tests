@@ -1,0 +1,27 @@
+en:
+  refinery:
+    plugins:
+      galaxies:
+        title: Galaxies
+    galaxies:
+      admin:
+        galaxies:
+          actions:
+            create_new: Add New Galaxy
+            reorder: Reorder Galaxies
+            reorder_done: Done Reordering Galaxies
+          records:
+            title: Galaxies
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Galaxies yet. Click "Add New Galaxy" to add your first galaxy.
+          galaxy:
+            view_live_html: View this galaxy live <br/><em>(opens in a new window)</em>
+            edit: Edit this galaxy
+            delete: Remove this galaxy forever
+      galaxies:
+        show:
+          other: Other Galaxies
+  activerecord:
+    attributes:
+      'refinery/galaxies/galaxy':
+        name: Name

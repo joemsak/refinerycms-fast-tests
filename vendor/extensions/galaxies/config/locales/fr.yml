@@ -1,0 +1,27 @@
+fr:
+  refinery:
+    plugins:
+      galaxies:
+        title: Galaxies
+    galaxies:
+      admin:
+        galaxies:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Galaxy
+            reorder: Réordonner les Galaxies
+            reorder_done: Fin de réordonnancement des Galaxies
+          records:
+            title: Galaxies
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Galaxy. Cliquer sur "Créer un(e) nouve(au/l/lle) Galaxy" pour créer votre premi(er/ère) galaxy.'
+          galaxy:
+            view_live_html: Voir ce(t/tte) galaxy <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) galaxy
+            delete: Supprimer définitivement ce(t/tte) galaxy
+      galaxies:
+        show:
+          other: Autres Galaxies
+  activerecord:
+    attributes:
+      'refinery/galaxies/galaxy':
+        name: Name

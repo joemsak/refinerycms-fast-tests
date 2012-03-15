@@ -1,0 +1,28 @@
+es:
+  refinery:
+    plugins:
+      galaxies:
+        title: Galaxies
+#        article: masculino/femenino
+    galaxies:
+      admin:
+        galaxies:
+          actions:
+            create_new: Crear nuevo galaxy
+            reorder: Reordenar galaxies
+            reorder_done: Reordenación de galaxies completada
+          records:
+            title: Galaxies
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay galaxies todavía. Pulsa en "Crear nuevo Galaxy" para crear tu primer galaxy.
+          galaxy:
+            view_live_html: Ver este galaxy como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este galaxy
+            delete: Borrar este galaxy para siempre
+      galaxies:
+        show:
+          other: Otros galaxies
+  activerecord:
+    attributes:
+      'refinery/galaxies/galaxy':
+        name: Name

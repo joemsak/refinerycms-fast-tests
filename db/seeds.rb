@@ -10,3 +10,5 @@
 Refinery::Pages::Engine.load_seed
 
 Refinery::Planets::Engine.load_seed
+
+Refinery::Galaxies::Engine.load_seed

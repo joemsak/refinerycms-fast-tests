@@ -1,0 +1,27 @@
+nb:
+  refinery:
+    plugins:
+      galaxies:
+        title: Galaxies
+    galaxies:
+      admin:
+        galaxies:
+          actions:
+            create_new: Lag en ny Galaxy
+            reorder: Endre rekkefølgen på Galaxies
+            reorder_done: Ferdig å endre rekkefølgen Galaxies
+          records:
+            title: Galaxies
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Galaxies enda. Klikk på "Lag en ny Galaxy" for å legge til din første galaxy.
+          galaxy:
+            view_live_html: Vis hvordan denne galaxy ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne galaxy
+            delete: Fjern denne galaxy permanent
+      galaxies:
+        show:
+          other: Andre Galaxies
+  activerecord:
+    attributes:
+      'refinery/galaxies/galaxy':
+        name: Name

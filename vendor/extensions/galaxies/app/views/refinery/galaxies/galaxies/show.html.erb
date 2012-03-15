@@ -1,0 +1,27 @@
+<% content_for :body_content_title do %>
+  <%= @galaxy.name %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  <section>
+    <h1>Name</h1>
+    <p>
+      <%=raw @galaxy.name %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :body_content_right do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="galaxies">
+      <% @galaxies.each do |galaxy| %>
+        <li>
+          <%= link_to galaxy.name, refinery.galaxies_galaxy_path(galaxy) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render '/refinery/content_page' %>

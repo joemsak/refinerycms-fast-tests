@@ -1,0 +1,27 @@
+nl:
+  refinery:
+    plugins:
+      galaxies:
+        title: Galaxies
+    galaxies:
+      admin:
+        galaxies:
+          actions:
+            create_new: Maak een nieuwe Galaxy
+            reorder: Wijzig de volgorde van de Galaxies
+            reorder_done: Klaar met het wijzingen van de volgorde van de Galaxies
+          records:
+            title: Galaxies
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Galaxies. Druk op 'Maak een nieuwe Galaxy' om de eerste aan te maken.
+          galaxy:
+            view_live_html: Bekijk deze galaxy op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze galaxy
+            delete: Verwijder deze galaxy voor eeuwig
+      galaxies:
+        show:
+          other: Andere Galaxies
+  activerecord:
+    attributes:
+      'refinery/galaxies/galaxy':
+        name: Name
